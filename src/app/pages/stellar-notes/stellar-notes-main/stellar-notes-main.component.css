@@ -1,21 +1,27 @@
-@import '../../stellar-security-app/security-common.css';
-.amount_duration{
-    font-size: 18px;
-    font-family: silka-medium;
+@import "../../stellar-security-app/stellar-security/stellar-security.component.css";
+.steller-notes-bg {
+  background-color: #f6f6fd;
+  background-image: url(../../../../assets/img/gray-arc.png);
+  background-size: contain;
 }
-.amount_price{
-    font-size: 30px;
-    font-family: silka-medium;
+.steller-notes-bg h3 {
+    color: #0B0C19;
 }
-ul.stellar-protected-list li {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    margin-bottom: 16px;
+.steller-notes-bg p {
+  color: #0B0C19;
 }
-/* .main-mobile-img{
-    max-width: 307px;
-} */
-.protected-icon{
-    max-width: 554px;
+.stelle-notes-title h3{
+    width: 40%;
+}
+.stelle-notes-title p{
+    width: 44%;
+}
+.steller-card-title h5{
+    margin-top: 8px;
+}
+.steller-card p{
+    width: 70%;
+}
+.promo-card{
+    max-width: 88%;
 }
